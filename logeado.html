@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Instituto</title>
+    <link rel="stylesheet" href="css/index.css">
+    <!--ENLACE A BOOSTRAP 5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="container-fluid" id="contenedor_P">
+        <header class="container-fluid">
+            <!-- Datos de Contacto + Redes Sociales + Iniciar Sesion-->
+            <div class="container" id="info_rel">
+                <span id="telefono" style="height: 3.2em;"><i class="fas fa-phone fa-1x"></i> +34 956 243 128 </span>
+
+
+                <span>
+                    <a href=""><i class="fab fa-facebook-f fa-2x"></i></a>
+                    <a href="https://twitter.com/IESMardeCadiz"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href=""><i class="fab fa-youtube fa-2x"></i></a>
+
+                </span>
+                <span id="text">
+
+                    <div class="media py-4 mb-4 m-lg-1">
+                        <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt=""
+                            class="img-lg rounded-circle mb-4 " width="20%">
+                    </div>
+
+                </span>
+            </div>
+            <!--MENU COMPLETO-->
+            <div class="container-fluid" id="menu-header">
+                <img class="logo" src="./assets/img/Inicio/logo_dh@2x.png" alt="Logo" />
+                <ul class="menu">
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Ampa</a></li>
+                    <li><a href="">Claustro</a></li>
+                    <li><a href="">Centro</a></li>
+                </ul>
+            </div>
+            <!--CONTENEDOR VIDEO-->
+            <article class="container-fluid">
+                <div id="caja">
+                    <div id="img-mac"><iframe src="https://www.youtube.com/embed/a5CCjIkpttU"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; muted"></iframe></div>
+                </div>
+
+            </article>
+
+        </header>
+
+        <br>
+        <hr />
+        <br>
+
+        <!--FORMULARIO CONTACTO-->
+        <section class="container-fluid" id="contactanos">
+            <article>
+                <h2>FORMULARIO DE CONTACTO</h2>
+
+                <form class="row g-3" id="fondo_form">
+                    <div class="col-md-6">
+                        <label for="inputNombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="inputNombre">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="inputApellidos">Apellidos</label>
+                        <input type="text" class="form-control" id="inputApellidos">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" id="inputEmail">
+                    </div>
+
+                    <div class="col-auto">
+                        <label class="visually-hidden" for="selecionador">Asunto</label>
+                        <select class="form-select" id="selecionador">
+                            <option hidden selected>Asunto</option>
+                            <option value="1">Matriculacion</option>
+                            <option value="2">Seguro Escolar</option>
+                            <option value="3">Procolo COVID</option>
+                        </select>
+                    </div>
+
+                    <div class="form-outline mb-4">
+                        <label class="form-label" for="inputPhone">Telefono</label>
+                        <input type="text" id="inputPhone" class="form-control" />
+
+                    </div>
+
+
+                    <!-- Message input -->
+                    <div class="form-outline mb-4">
+                        <label class="form-label" for="form6Example7">Mensaje</label>
+                        <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+
+                    </div>
+
+                    <input type="submit" name="enviar" value="enviar datos" />
+                </form>
+            </article>
+        </section>
+
+        <br>
+        <hr />
+        <br>
+        <!--CONTENEDOR PROFESOR-->
+        <section class="container-fluid" id="profesorado">
+            <article>
+                <h2>PROFESARADO DE COMPETENCIA Y CALIDAD</h2>
+
+                <div>
+                    <i class="fas fa-angle-double-left fa-2x"></i>
+                    <img src="./assets/img/Inicio/Elipse_32_fa@2x.png" alt="Profesor">
+                    <i class="fas fa-angle-double-right fa-2x"></i>
+                </div>
+            </article>
+        </section>
+
+
+
+
+        <!--PIE DE PAGINA -->
+        <footer class="container-fluid">
+            <div class="contenedor">
+                <h3>Bienvenido al centro</h3>
+            </div>
+            <div class="contenedor">
+                <nav>
+                    <ul>
+                        <li>Inicio</li>
+                        <li>Ampa</li>
+                        <li>Claustro</li>
+                        <li>Centro</li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="pie">
+                <img alt="Españita" src="./assets/img/Inicio/GobiernoESP@2x.png">
+            </div>
+
+        </footer>
+
+    </div>
+
+
+</body>
+
+
+
+</html>
